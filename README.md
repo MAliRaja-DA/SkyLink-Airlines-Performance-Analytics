@@ -101,7 +101,7 @@ skylink-airlines-analytics/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/<your-username>/skylink-airlines-analytics.git
+   git clone https://github.com/MAliRaja-DA/skylink-airlines-analytics.git
    ```
 2. Create a PostgreSQL database named `Skylink_Airline`.
 3. Run the SQL script in `database/` to create the tables and load the data.
