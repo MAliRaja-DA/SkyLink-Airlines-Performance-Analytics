@@ -80,7 +80,7 @@ The report has 6 pages:
 
 ## 💡 Key Insights
 
-- **Revenue:** Total revenue of **$___** from **___** tickets.
+- **Revenue:** Total revenue of **$1.28788604M** from **1K** tickets.
 - **Top fare class:** ______ generates **___%** of revenue.
 - **Best route:** ______ is the highest-earning route.
 - **Punctuality:** **___%** of flights were delayed and **___%** cancelled.
