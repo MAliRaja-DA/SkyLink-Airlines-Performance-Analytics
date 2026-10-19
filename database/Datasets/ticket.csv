@@ -1,0 +1,1001 @@
+ticket_id,booking_id,passenger_id,flight_id,seat_id,fare_class,price,status
+1,814,94,763,779,Economy,256.14,Cancelled
+2,233,882,49,,Economy,101.79,Booked
+3,549,163,197,,Business,653.38,Cancelled
+4,996,138,339,149,Economy,350.14,Checked In
+5,978,773,738,916,Economy,119.63,Cancelled
+6,26,372,38,,Business,1271.45,Boarded
+7,571,741,956,,Economy,323.83,Checked In
+8,885,157,590,104,Economy,191.3,Boarded
+9,507,386,228,,Economy,228.67,Booked
+10,305,380,363,,First,4832.59,Booked
+11,212,395,347,,Economy,198.45,Boarded
+12,163,854,954,,Economy,231.98,Boarded
+13,448,435,463,,Business,1232.62,Checked In
+14,172,420,934,,First,3186.43,Booked
+15,505,312,660,443,Economy,373.85,Boarded
+16,963,171,775,,Economy,174.76,Checked In
+17,709,45,369,,First,4236.06,Boarded
+18,994,151,376,,Business,1084.5,Booked
+19,385,279,235,,Business,537.26,Cancelled
+20,41,712,663,,Economy,173.12,Cancelled
+21,935,969,228,,Economy,102.33,Booked
+22,126,357,390,879,Business,644.39,Booked
+23,99,791,760,,First,4058.65,Boarded
+24,287,832,188,,Business,455.07,Boarded
+25,24,693,760,,Business,674.36,Cancelled
+26,626,1000,808,,Economy,334.46,Cancelled
+27,858,562,28,,First,2343.36,Boarded
+28,914,361,515,,First,4815.82,Checked In
+29,438,268,329,,Business,1115.33,Cancelled
+30,383,784,628,,Business,1053.18,Cancelled
+31,267,137,358,,First,2523.57,Checked In
+32,648,595,664,,Economy,390.78,Checked In
+33,394,543,172,,Business,792.95,Boarded
+34,600,507,908,,First,3348.0,Booked
+35,827,710,912,,Business,998.62,Cancelled
+36,930,822,493,,Economy,357.56,Checked In
+37,59,778,524,1,Business,1020.5,Cancelled
+38,987,450,535,,First,4222.05,Boarded
+39,383,111,111,,First,4660.47,Checked In
+40,823,291,423,,Business,524.58,Checked In
+41,476,345,176,,Economy,231.25,Booked
+42,21,899,9,,First,2014.13,Boarded
+43,890,628,657,,Business,650.06,Booked
+44,821,785,573,,Business,818.41,Booked
+45,376,209,835,,Economy,76.21,Checked In
+46,386,79,227,,First,3709.23,Booked
+47,296,320,827,137,Economy,302.49,Cancelled
+48,162,728,578,,First,2511.41,Booked
+49,217,438,505,,Business,1007.12,Booked
+50,397,582,800,679,Economy,75.52,Booked
+51,468,80,853,,Economy,405.01,Checked In
+52,973,724,497,741,Business,1005.48,Cancelled
+53,854,470,606,,Economy,275.24,Cancelled
+54,819,715,240,,Business,676.95,Booked
+55,999,427,822,,First,4281.29,Cancelled
+56,354,625,174,525,Business,538.55,Booked
+57,993,410,653,,First,4692.36,Cancelled
+58,482,300,53,240,Economy,81.47,Checked In
+59,136,380,645,,First,3911.71,Cancelled
+60,391,762,888,620,Economy,96.56,Boarded
+61,806,250,831,,Business,493.07,Cancelled
+62,64,850,22,,Economy,62.41,Checked In
+63,769,144,136,,First,1908.52,Cancelled
+64,574,849,224,,First,1646.43,Booked
+65,866,764,37,,Economy,384.57,Booked
+66,752,388,580,,Economy,367.99,Booked
+67,6,802,392,,Business,908.19,Cancelled
+68,864,67,41,,Economy,169.83,Boarded
+69,82,84,811,,Business,690.84,Checked In
+70,573,154,762,688,Economy,160.34,Checked In
+71,934,994,940,,First,3274.04,Cancelled
+72,125,444,457,,Economy,102.33,Cancelled
+73,21,889,802,,Economy,376.97,Boarded
+74,875,309,806,,First,2866.66,Boarded
+75,37,996,161,662,Economy,411.41,Booked
+76,865,531,680,,Economy,385.19,Boarded
+77,652,538,52,,Business,1180.08,Boarded
+78,633,858,995,,Business,452.07,Checked In
+79,302,146,992,,Business,1133.39,Checked In
+80,429,221,251,,Business,638.41,Booked
+81,676,475,645,,Business,751.86,Cancelled
+82,510,966,128,,First,2037.72,Checked In
+83,18,411,93,,First,2222.25,Checked In
+84,15,241,109,,First,2953.62,Cancelled
+85,852,750,805,134,Economy,129.38,Cancelled
+86,568,12,511,,Economy,299.83,Booked
+87,944,855,921,206,Economy,72.2,Cancelled
+88,428,401,888,,Business,908.84,Cancelled
+89,33,648,161,663,Economy,428.73,Boarded
+90,865,625,613,,Economy,413.7,Booked
+91,264,812,732,,Business,579.16,Cancelled
+92,305,842,610,,Business,1358.16,Boarded
+93,654,515,870,,Business,1219.55,Cancelled
+94,353,480,473,,First,4813.06,Checked In
+95,705,835,922,495,Economy,137.03,Checked In
+96,477,515,765,,First,2241.65,Checked In
+97,534,931,870,,Business,1258.24,Checked In
+98,960,802,796,,Economy,374.27,Cancelled
+99,437,984,329,,Business,1243.99,Boarded
+100,132,512,882,,Business,1258.97,Boarded
+101,439,706,313,,Business,1109.41,Booked
+102,194,914,748,,Economy,120.58,Booked
+103,871,308,240,,Business,886.5,Boarded
+104,368,921,938,714,Economy,443.46,Checked In
+105,140,255,313,,Business,1209.41,Checked In
+106,358,397,428,,First,4331.7,Checked In
+107,793,780,537,,First,4871.43,Cancelled
+108,836,374,789,283,Economy,295.87,Checked In
+109,681,6,997,,Economy,388.1,Booked
+110,116,207,239,,First,3133.54,Cancelled
+111,75,812,627,,Economy,322.08,Cancelled
+112,995,9,102,,Business,1370.48,Booked
+113,948,81,365,,First,1877.84,Cancelled
+114,858,158,217,,Economy,197.93,Boarded
+115,165,562,76,,Economy,199.69,Cancelled
+116,897,740,942,,Business,804.77,Booked
+117,386,207,920,,First,3069.71,Boarded
+118,24,378,909,,Business,1085.78,Checked In
+119,124,893,822,,Business,517.57,Booked
+120,64,32,660,,First,2532.15,Booked
+121,37,143,471,,Business,686.55,Booked
+122,694,385,344,,Business,1044.15,Checked In
+123,458,659,423,,First,2160.44,Booked
+124,855,649,539,,Economy,209.23,Checked In
+125,957,169,893,,Business,1300.35,Cancelled
+126,755,232,712,,First,1851.6,Boarded
+127,253,82,765,,Economy,238.93,Checked In
+128,881,612,516,,Business,740.14,Boarded
+129,871,988,191,,Business,1207.27,Boarded
+130,138,607,227,,Economy,369.71,Boarded
+131,749,391,910,,Economy,169.7,Checked In
+132,519,752,207,405,Economy,221.08,Boarded
+133,726,742,138,935,Economy,414.23,Booked
+134,365,546,292,,First,3161.01,Checked In
+135,572,810,598,,Business,963.0,Boarded
+136,137,816,521,166,Economy,314.16,Boarded
+137,837,622,470,,First,3445.48,Checked In
+138,192,948,817,671,Economy,70.29,Boarded
+139,156,126,22,,Economy,103.98,Cancelled
+140,122,113,780,,Business,917.8,Boarded
+141,820,287,381,701,Business,1207.36,Cancelled
+142,721,635,560,866,Economy,440.82,Cancelled
+143,609,181,870,,Economy,152.4,Boarded
+144,821,248,949,,First,1613.85,Checked In
+145,671,355,756,,Business,1439.44,Boarded
+146,882,675,188,,First,2792.31,Checked In
+147,466,863,843,,Business,1151.6,Checked In
+148,109,180,837,715,Economy,267.03,Cancelled
+149,827,33,126,,Economy,449.93,Booked
+150,65,456,360,926,Economy,202.29,Checked In
+151,422,146,914,,Business,1323.92,Checked In
+152,128,345,89,,Business,900.18,Boarded
+153,319,226,567,,Business,949.38,Cancelled
+154,955,71,237,,Business,1378.21,Checked In
+155,357,918,714,,First,3297.25,Booked
+156,935,58,936,,Business,1272.63,Boarded
+157,552,919,790,358,Economy,341.42,Cancelled
+158,219,626,435,,Business,659.06,Checked In
+159,877,128,441,,Economy,359.23,Booked
+160,660,614,632,,Economy,424.0,Cancelled
+161,677,547,678,,First,3962.85,Boarded
+162,157,683,712,,Business,955.48,Booked
+163,323,228,407,498,Economy,78.38,Cancelled
+164,882,967,767,,Business,487.94,Cancelled
+165,385,631,608,,Economy,326.79,Checked In
+166,751,560,322,,First,2885.24,Boarded
+167,579,882,282,807,Business,1312.69,Checked In
+168,211,102,785,,Economy,93.99,Cancelled
+169,775,653,725,,First,2611.99,Booked
+170,175,397,767,,Economy,98.76,Booked
+171,403,734,710,,First,4247.36,Checked In
+172,769,419,256,,Economy,150.05,Boarded
+173,758,126,564,,Business,1360.32,Checked In
+174,609,675,92,,Business,1310.11,Cancelled
+175,96,205,712,,Economy,386.24,Checked In
+176,819,636,528,11,First,3289.09,Boarded
+177,977,278,316,,Economy,71.57,Cancelled
+178,662,300,802,,Business,1305.62,Cancelled
+179,756,501,481,,Business,577.16,Boarded
+180,921,431,842,,First,4387.65,Boarded
+181,889,103,514,,Economy,97.87,Checked In
+182,206,776,180,194,Business,1191.08,Checked In
+183,41,341,468,,First,2736.16,Cancelled
+184,414,896,58,,Business,1499.61,Checked In
+185,848,929,888,619,Economy,445.52,Cancelled
+186,437,46,959,,Business,1054.36,Boarded
+187,20,528,959,,Business,1197.43,Cancelled
+188,84,972,49,,Business,988.54,Cancelled
+189,382,355,881,,First,2232.15,Cancelled
+190,782,261,509,,Business,1358.93,Boarded
+191,66,185,689,,Business,464.7,Boarded
+192,201,583,447,,First,2492.37,Checked In
+193,326,598,807,,Business,502.59,Booked
+194,904,69,566,,First,3902.39,Booked
+195,924,526,500,,Economy,211.12,Checked In
+196,544,909,565,,Economy,291.04,Checked In
+197,489,84,580,,Economy,257.32,Checked In
+198,573,862,877,,Economy,431.9,Cancelled
+199,897,619,132,,Economy,221.19,Booked
+200,100,869,538,,Economy,241.49,Boarded
+201,468,432,763,777,Economy,436.43,Cancelled
+202,730,451,701,,Business,1236.87,Checked In
+203,422,135,314,,First,2668.27,Checked In
+204,173,523,110,,Business,1365.92,Boarded
+205,813,768,83,,Business,1445.53,Checked In
+206,80,212,86,,First,4187.14,Cancelled
+207,923,297,584,,Economy,105.13,Boarded
+208,141,731,995,,First,3211.19,Cancelled
+209,820,187,803,,Business,809.82,Checked In
+210,976,504,434,,First,2794.63,Booked
+211,883,532,900,744,First,3691.15,Boarded
+212,113,393,220,,First,1883.99,Checked In
+213,481,98,786,,Business,714.42,Checked In
+214,424,177,548,,Economy,398.69,Checked In
+215,295,125,240,,Business,474.67,Checked In
+216,291,412,13,,First,3156.87,Cancelled
+217,866,650,985,,First,3043.42,Cancelled
+218,309,662,763,780,Economy,178.78,Boarded
+219,552,146,118,,First,4492.54,Cancelled
+220,223,630,572,,First,2119.13,Checked In
+221,916,338,928,,Business,985.61,Cancelled
+222,982,483,287,,Economy,410.95,Boarded
+223,60,224,788,,Economy,192.77,Checked In
+224,318,783,682,604,Economy,186.05,Cancelled
+225,635,577,942,,Business,1174.22,Checked In
+226,559,503,809,,Business,757.81,Cancelled
+227,81,234,316,,Economy,124.48,Checked In
+228,657,821,532,,First,4727.5,Checked In
+229,270,885,852,,Economy,69.95,Boarded
+230,796,470,847,,Economy,298.24,Cancelled
+231,432,860,392,,Business,892.9,Checked In
+232,973,731,792,,Economy,401.91,Cancelled
+233,647,51,888,,Economy,150.91,Cancelled
+234,452,876,697,731,Economy,390.29,Booked
+235,884,754,918,,First,3455.39,Checked In
+236,600,481,924,,Economy,352.25,Booked
+237,533,191,722,,Economy,411.82,Checked In
+238,688,940,937,,Business,486.93,Checked In
+239,344,755,774,,First,2141.12,Booked
+240,942,904,498,,Economy,328.12,Checked In
+241,836,983,938,716,Economy,64.2,Cancelled
+242,405,289,923,,Business,1187.44,Booked
+243,863,969,514,,Business,948.63,Cancelled
+244,734,928,658,971,Economy,196.37,Cancelled
+245,635,751,901,,Business,938.5,Cancelled
+246,88,102,300,,First,1803.11,Boarded
+247,427,69,663,,First,1689.56,Cancelled
+248,604,726,930,,Economy,371.97,Boarded
+249,99,22,552,,First,4869.6,Checked In
+250,972,137,781,,Business,1154.14,Cancelled
+251,402,533,878,663,Economy,116.98,Booked
+252,235,192,965,,Business,1436.29,Boarded
+253,62,657,234,,Economy,402.51,Checked In
+254,268,97,99,,Business,1242.65,Booked
+255,752,454,417,,Business,1336.1,Checked In
+256,222,346,183,,First,2487.81,Boarded
+257,488,448,55,,Economy,337.68,Cancelled
+258,884,706,73,,Economy,270.58,Checked In
+259,774,736,605,,Business,506.42,Boarded
+260,211,535,980,,Business,1019.88,Cancelled
+261,72,147,712,,First,3070.25,Cancelled
+262,386,156,117,,First,4790.12,Checked In
+263,344,308,647,,Business,874.23,Booked
+264,288,739,233,,Economy,194.33,Checked In
+265,957,682,939,,First,3694.26,Boarded
+266,572,843,855,,First,3517.34,Boarded
+267,251,953,68,,Economy,399.36,Booked
+268,33,533,785,,Business,1055.83,Booked
+269,320,49,996,,Economy,398.38,Boarded
+270,107,694,462,,Economy,143.82,Boarded
+271,188,906,250,,Business,1208.98,Checked In
+272,80,210,307,,First,2021.86,Booked
+273,300,906,642,,Business,580.11,Cancelled
+274,893,847,403,,Economy,356.26,Cancelled
+275,621,875,950,,First,4351.06,Boarded
+276,746,145,985,,First,3633.95,Booked
+277,36,836,107,,Business,592.58,Boarded
+278,555,786,137,,Economy,408.42,Cancelled
+279,786,346,21,,First,4766.11,Cancelled
+280,242,83,231,,Economy,166.81,Booked
+281,679,888,745,,Business,1066.12,Booked
+282,638,922,430,,First,3753.56,Boarded
+283,95,625,406,,Business,630.28,Booked
+284,283,360,496,,Economy,183.4,Cancelled
+285,798,520,447,,Economy,386.0,Checked In
+286,453,524,381,,First,3118.71,Cancelled
+287,126,183,68,,First,3567.56,Checked In
+288,875,711,672,,First,3224.29,Cancelled
+289,2,682,884,,Business,1118.78,Booked
+290,131,176,663,,Business,1056.29,Cancelled
+291,794,165,755,78,Business,914.58,Boarded
+292,972,201,1,,First,4892.74,Checked In
+293,621,559,509,,First,3729.94,Booked
+294,431,802,991,,Business,894.82,Boarded
+295,854,578,315,344,Economy,271.69,Boarded
+296,616,667,524,4,Economy,337.02,Checked In
+297,8,215,740,712,Economy,275.63,Cancelled
+298,514,483,27,,First,3897.67,Cancelled
+299,376,382,994,,First,4273.88,Boarded
+300,805,880,294,,Business,958.32,Cancelled
+301,909,333,220,,Economy,286.2,Boarded
+302,766,977,429,,Business,665.38,Booked
+303,228,133,154,808,Economy,204.55,Boarded
+304,78,142,168,986,First,3922.75,Boarded
+305,749,779,4,483,Economy,204.25,Cancelled
+306,238,101,294,,First,2027.42,Cancelled
+307,433,182,149,,First,2386.33,Cancelled
+308,439,3,207,408,Economy,437.04,Booked
+309,493,985,72,,Economy,79.09,Boarded
+310,324,539,792,,First,3348.62,Cancelled
+311,280,116,645,,Business,1138.0,Checked In
+312,613,618,859,,Business,1093.24,Checked In
+313,674,895,775,,First,2283.45,Checked In
+314,252,518,201,,First,2185.72,Cancelled
+315,839,440,568,,First,2235.88,Cancelled
+316,535,595,810,,First,2023.78,Booked
+317,983,459,216,,First,4546.93,Cancelled
+318,990,552,105,,Business,816.02,Checked In
+319,256,341,39,,Business,1116.73,Checked In
+320,492,557,999,,Business,694.49,Boarded
+321,137,117,594,,First,3329.69,Cancelled
+322,965,529,262,,First,2913.56,Checked In
+323,952,214,952,,Business,635.34,Boarded
+324,59,555,405,194,Business,878.74,Cancelled
+325,190,548,91,,Economy,235.31,Cancelled
+326,468,759,455,,First,4866.4,Checked In
+327,719,617,494,,Economy,267.78,Booked
+328,624,47,368,,First,3516.79,Boarded
+329,930,441,514,,First,4631.45,Checked In
+330,223,34,371,,Economy,329.94,Boarded
+331,44,685,435,,Economy,440.08,Checked In
+332,398,121,57,,First,2323.85,Checked In
+333,287,570,710,,Business,973.0,Cancelled
+334,359,112,541,,First,2458.1,Booked
+335,629,550,844,,Business,535.12,Checked In
+336,595,309,22,,Business,700.13,Boarded
+337,996,484,187,,Business,940.46,Checked In
+338,614,564,357,,Business,1298.4,Boarded
+339,36,12,477,355,Business,1335.67,Boarded
+340,538,794,895,16,Economy,229.14,Checked In
+341,803,715,1000,,Business,1127.12,Boarded
+342,707,17,953,,Business,518.04,Boarded
+343,632,30,318,,First,4144.36,Checked In
+344,354,739,622,,Business,843.44,Checked In
+345,857,294,975,,Business,696.59,Cancelled
+346,862,301,634,,First,2871.13,Booked
+347,500,512,739,,First,3618.2,Cancelled
+348,468,146,154,806,Economy,179.92,Cancelled
+349,748,692,87,,Business,1431.04,Checked In
+350,973,35,11,,Economy,253.74,Checked In
+351,472,794,373,,First,1709.59,Cancelled
+352,863,430,825,,First,3146.3,Cancelled
+353,711,577,250,,First,3921.58,Boarded
+354,111,259,367,,Economy,399.63,Cancelled
+355,665,609,694,,Economy,105.64,Cancelled
+356,529,913,894,,Economy,120.43,Booked
+357,510,351,894,,Economy,81.32,Cancelled
+358,627,880,789,282,Economy,202.72,Boarded
+359,951,583,225,,First,4627.95,Checked In
+360,886,148,888,618,Economy,428.1,Boarded
+361,188,218,186,559,Economy,169.06,Booked
+362,195,637,821,,First,3511.08,Booked
+363,932,458,412,,First,3598.94,Checked In
+364,961,54,245,852,Economy,287.68,Booked
+365,494,14,358,,First,3807.54,Cancelled
+366,613,379,726,916,Economy,380.67,Checked In
+367,422,926,115,,First,4248.46,Checked In
+368,532,873,497,744,First,3768.45,Booked
+369,465,848,196,,Economy,327.87,Checked In
+370,853,544,149,,Economy,167.4,Checked In
+371,559,452,911,,First,3540.52,Cancelled
+372,139,518,591,,Economy,62.9,Checked In
+373,566,294,58,,Business,601.73,Boarded
+374,49,329,393,,Economy,278.26,Checked In
+375,762,110,585,,Economy,118.41,Cancelled
+376,55,269,719,524,Economy,187.12,Booked
+377,562,997,279,,Business,1073.95,Checked In
+378,557,967,964,,Business,820.87,Boarded
+379,471,72,638,,Economy,412.74,Booked
+380,704,976,382,,Business,985.87,Boarded
+381,543,484,38,,Business,869.07,Checked In
+382,231,29,879,,First,1665.54,Boarded
+383,402,7,599,,First,4997.45,Boarded
+384,642,401,893,,Economy,200.68,Booked
+385,142,861,911,,First,4225.25,Checked In
+386,939,343,54,503,Economy,395.3,Cancelled
+387,857,57,867,,Business,480.55,Boarded
+388,633,22,855,,First,4484.0,Boarded
+389,713,469,439,,Business,958.94,Checked In
+390,846,824,488,882,Economy,287.62,Boarded
+391,500,273,232,,Business,609.56,Booked
+392,722,196,334,476,Economy,375.13,Booked
+393,607,128,28,439,Economy,253.87,Boarded
+394,192,258,692,637,Economy,99.28,Booked
+395,134,448,664,,Business,590.34,Cancelled
+396,461,197,648,,First,1881.73,Checked In
+397,972,877,808,,Economy,62.9,Checked In
+398,101,270,379,457,First,2225.5,Cancelled
+399,223,820,201,,First,4587.2,Cancelled
+400,271,649,158,,Business,887.69,Cancelled
+401,988,921,930,,First,2874.4,Booked
+402,766,675,982,,Business,492.77,Booked
+403,733,369,930,,First,3515.19,Boarded
+404,943,902,717,,Economy,272.35,Boarded
+405,481,853,382,,Economy,416.02,Boarded
+406,277,227,702,,First,4956.17,Boarded
+407,465,554,110,,First,3724.97,Cancelled
+408,465,636,990,,First,4300.74,Booked
+409,819,289,902,,First,4929.55,Booked
+410,356,686,776,,First,4939.08,Booked
+411,979,303,278,,Business,876.66,Boarded
+412,259,114,466,,Economy,73.86,Cancelled
+413,941,373,425,,Economy,212.45,Boarded
+414,298,878,803,,Business,1150.4,Checked In
+415,796,895,650,,First,2896.66,Cancelled
+416,954,822,509,,Business,905.24,Boarded
+417,634,614,47,,Economy,318.46,Boarded
+418,289,945,793,73,Economy,385.55,Checked In
+419,189,391,440,,Business,985.89,Boarded
+420,629,662,111,,First,3768.45,Booked
+421,320,395,908,,Economy,273.98,Checked In
+422,414,224,730,,Business,1014.37,Booked
+423,676,384,770,,Economy,138.3,Boarded
+424,85,646,205,,Economy,324.25,Checked In
+425,354,442,117,,Economy,429.03,Booked
+426,168,497,519,,Business,948.56,Boarded
+427,315,468,851,,First,3059.65,Checked In
+428,233,789,636,,First,1885.85,Cancelled
+429,78,625,716,,Business,1035.44,Checked In
+430,355,535,560,868,Economy,445.77,Boarded
+431,678,202,124,987,Business,1181.03,Cancelled
+432,312,16,541,,Business,772.82,Boarded
+433,29,887,463,,Economy,297.93,Checked In
+434,589,644,430,,Economy,350.88,Boarded
+435,418,350,450,,Business,1069.26,Booked
+436,395,128,519,,Economy,348.9,Boarded
+437,153,337,128,567,Economy,161.67,Boarded
+438,80,600,920,,First,1941.14,Booked
+439,378,945,133,,First,2329.13,Boarded
+440,7,69,986,,Business,1337.14,Booked
+441,687,463,50,,First,3836.25,Boarded
+442,622,932,121,,Business,771.23,Checked In
+443,252,505,706,,Business,1335.31,Booked
+444,99,839,369,,Business,1093.67,Boarded
+445,446,964,690,443,Economy,447.56,Boarded
+446,903,486,234,,Economy,245.32,Boarded
+447,8,742,634,,Economy,138.63,Booked
+448,645,504,519,,Economy,66.08,Booked
+449,499,114,588,,Business,956.02,Booked
+450,673,981,307,,Business,556.75,Boarded
+451,102,287,597,315,Economy,267.56,Checked In
+452,556,499,879,,Economy,209.63,Booked
+453,979,893,479,,Economy,291.96,Cancelled
+454,744,80,866,,First,1673.65,Boarded
+455,248,917,533,,First,2839.17,Boarded
+456,543,144,879,,Business,1199.19,Checked In
+457,668,907,24,,First,3614.5,Cancelled
+458,951,18,807,,Business,1209.64,Cancelled
+459,283,257,349,633,Economy,207.29,Booked
+460,268,367,731,,First,1935.32,Booked
+461,524,86,859,,First,3177.93,Checked In
+462,55,30,182,,Business,1120.06,Cancelled
+463,245,732,143,6,Economy,365.05,Checked In
+464,853,437,628,,Business,512.21,Checked In
+465,150,939,665,,Business,1385.14,Boarded
+466,600,50,267,,Business,695.52,Checked In
+467,336,864,145,735,Economy,161.47,Checked In
+468,54,989,813,,Business,1354.28,Cancelled
+469,910,195,788,,Business,1335.64,Booked
+470,200,694,675,,Business,1299.82,Cancelled
+471,304,149,431,345,First,4002.55,Cancelled
+472,161,479,262,,Economy,333.26,Booked
+473,265,671,716,,Economy,104.64,Cancelled
+474,298,94,811,,Economy,297.12,Booked
+475,719,205,445,,Business,890.88,Booked
+476,997,657,780,,Economy,332.27,Boarded
+477,907,847,178,,Business,492.76,Cancelled
+478,131,553,771,,First,3513.11,Checked In
+479,172,194,534,,Business,663.83,Cancelled
+480,624,936,631,,Economy,269.73,Boarded
+481,946,587,308,,Business,1369.81,Checked In
+482,160,334,66,728,Economy,185.61,Boarded
+483,638,456,470,,Business,868.06,Boarded
+484,105,167,528,12,Economy,321.8,Cancelled
+485,207,549,193,,Business,964.98,Cancelled
+486,356,792,465,,Economy,141.97,Booked
+487,81,172,131,74,Economy,311.16,Cancelled
+488,365,805,216,,First,4219.61,Boarded
+489,183,76,309,,Business,1223.95,Checked In
+490,845,812,344,,Business,1159.69,Boarded
+491,773,803,465,,Business,1042.09,Checked In
+492,634,436,907,,First,4897.04,Checked In
+493,371,155,381,704,Economy,394.28,Boarded
+494,706,255,955,373,Economy,197.27,Cancelled
+495,201,697,294,,Business,890.98,Booked
+496,963,806,443,,First,4033.15,Checked In
+497,996,767,262,,Business,557.11,Boarded
+498,488,799,329,,Business,1386.04,Booked
+499,559,48,681,,Economy,75.17,Checked In
+500,839,21,167,,Economy,407.16,Checked In
+501,215,597,347,,Business,561.94,Booked
+502,881,833,428,,First,3292.09,Checked In
+503,196,157,569,,Business,1406.78,Booked
+504,269,1000,130,,Economy,219.62,Checked In
+505,643,137,423,,First,4996.98,Checked In
+506,117,303,271,,Business,663.06,Cancelled
+507,109,345,662,,Economy,164.0,Booked
+508,855,633,403,232,Business,968.43,Booked
+509,785,850,984,,Economy,324.81,Boarded
+510,780,621,103,,Economy,129.66,Boarded
+511,191,201,929,,Economy,335.44,Cancelled
+512,195,346,364,,Business,885.25,Booked
+513,213,197,735,,Business,1040.76,Checked In
+514,89,36,898,,Business,916.65,Cancelled
+515,254,181,206,,First,3418.68,Boarded
+516,301,349,347,,Economy,237.09,Cancelled
+517,448,655,797,861,Economy,403.0,Checked In
+518,338,440,292,,Economy,445.1,Checked In
+519,15,638,627,437,Economy,293.89,Boarded
+520,13,494,713,,First,3028.19,Cancelled
+521,584,586,622,,First,2260.64,Booked
+522,584,662,127,,First,3488.54,Cancelled
+523,280,399,121,,Economy,151.45,Booked
+524,613,713,679,,Economy,74.09,Boarded
+525,94,371,345,,Economy,252.83,Boarded
+526,533,779,406,,Economy,410.47,Cancelled
+527,216,342,210,,Economy,124.67,Cancelled
+528,36,134,517,,First,3615.88,Cancelled
+529,986,445,514,,Business,1299.75,Boarded
+530,833,553,854,,First,2440.04,Booked
+531,92,395,166,,Economy,83.16,Cancelled
+532,364,884,869,,Economy,178.83,Boarded
+533,863,473,212,,First,4772.07,Boarded
+534,701,810,298,25,Economy,192.57,Cancelled
+535,508,68,679,,Economy,423.58,Booked
+536,678,792,148,,Business,797.06,Cancelled
+537,43,571,943,,First,3410.27,Boarded
+538,562,393,625,,Business,1088.3,Boarded
+539,889,534,307,,Economy,159.78,Checked In
+540,193,103,269,,First,2467.88,Boarded
+541,172,760,104,,Economy,194.79,Cancelled
+542,47,435,143,,First,1517.13,Booked
+543,565,46,699,,Business,500.14,Booked
+544,325,128,818,,Business,1232.41,Boarded
+545,3,367,807,,Economy,277.76,Booked
+546,682,82,721,,Economy,323.06,Cancelled
+547,645,280,733,,Economy,438.41,Cancelled
+548,931,225,803,,Business,717.39,Checked In
+549,176,824,422,607,Economy,329.91,Checked In
+550,717,589,758,,Economy,171.3,Checked In
+551,615,951,742,103,Economy,109.33,Booked
+552,550,978,86,,Business,747.33,Boarded
+553,142,377,689,,Economy,422.35,Cancelled
+554,541,667,346,,First,2150.11,Cancelled
+555,516,877,182,,Economy,281.67,Booked
+556,170,157,315,342,Economy,404.65,Booked
+557,620,824,500,,Economy,122.94,Cancelled
+558,602,723,16,658,Economy,199.6,Booked
+559,851,851,703,,Business,1103.89,Booked
+560,481,350,665,,Economy,151.94,Cancelled
+561,57,139,687,,Business,1390.08,Checked In
+562,511,613,486,,Economy,267.24,Booked
+563,316,920,663,,Economy,242.41,Cancelled
+564,944,354,564,,Business,639.07,Boarded
+565,204,479,89,,Business,595.28,Booked
+566,332,236,246,,Economy,69.68,Checked In
+567,948,890,191,,Business,1448.62,Cancelled
+568,279,456,782,,Business,520.51,Checked In
+569,72,946,103,,Business,546.01,Cancelled
+570,516,233,625,,Business,1486.27,Boarded
+571,162,145,423,,First,3013.25,Booked
+572,377,310,905,,Economy,66.87,Booked
+573,212,658,987,,First,4803.05,Booked
+574,253,78,365,642,Economy,394.96,Cancelled
+575,443,509,91,,Economy,216.37,Cancelled
+576,903,929,723,,Economy,188.19,Boarded
+577,333,173,189,,First,4142.03,Checked In
+578,218,143,903,,Business,1171.29,Boarded
+579,524,676,329,,First,2154.38,Cancelled
+580,781,628,582,,Economy,337.69,Cancelled
+581,364,997,449,134,Economy,449.42,Checked In
+582,355,181,123,,First,3625.98,Booked
+583,700,397,302,,Economy,432.29,Boarded
+584,91,148,201,,First,4808.4,Booked
+585,332,288,42,972,Business,978.19,Booked
+586,905,970,464,320,Economy,136.76,Cancelled
+587,650,22,982,969,Economy,158.55,Booked
+588,692,355,129,,Business,1109.96,Checked In
+589,841,951,424,,Business,625.49,Checked In
+590,748,76,192,,Business,724.58,Boarded
+591,964,292,208,,Business,960.77,Cancelled
+592,626,980,444,,Business,1142.07,Cancelled
+593,491,645,877,,Economy,210.7,Cancelled
+594,727,200,5,,Economy,329.46,Checked In
+595,226,136,500,,First,4212.08,Checked In
+596,832,97,850,776,Economy,319.85,Cancelled
+597,124,618,581,495,Economy,303.01,Boarded
+598,123,316,753,,Business,822.42,Booked
+599,999,426,757,,Economy,272.44,Boarded
+600,999,708,154,807,Business,991.21,Checked In
+601,861,162,994,,First,3104.47,Boarded
+602,728,414,74,,Business,1267.61,Booked
+603,580,936,390,878,Business,1095.76,Checked In
+604,162,750,346,,Business,1004.22,Booked
+605,933,561,517,,Business,1286.7,Booked
+606,434,583,16,660,Economy,402.6,Checked In
+607,293,754,767,,Business,1223.55,Booked
+608,81,189,51,,Economy,242.81,Booked
+609,852,864,666,,Economy,412.54,Boarded
+610,654,588,853,,Business,1187.34,Booked
+611,711,704,143,5,Economy,241.23,Checked In
+612,202,47,809,,Economy,154.58,Checked In
+613,228,230,591,,First,3660.51,Boarded
+614,70,109,716,,Economy,433.35,Cancelled
+615,782,760,481,,Economy,271.02,Cancelled
+616,617,162,450,,First,4969.43,Cancelled
+617,449,965,547,,Economy,155.89,Booked
+618,651,565,732,,Business,641.46,Cancelled
+619,830,894,777,623,Economy,159.74,Boarded
+620,816,522,386,278,First,1582.73,Cancelled
+621,159,840,24,,Business,1004.23,Boarded
+622,693,693,997,,First,3725.87,Booked
+623,602,518,720,,Business,598.29,Checked In
+624,864,605,527,,Economy,84.55,Booked
+625,778,5,531,326,Economy,288.15,Boarded
+626,920,87,594,,First,3423.99,Booked
+627,718,984,649,,Business,1070.43,Checked In
+628,915,200,22,,First,2681.63,Booked
+629,466,772,975,,Business,1050.03,Boarded
+630,55,889,290,390,Economy,232.0,Checked In
+631,585,572,909,,First,1997.29,Boarded
+632,1000,975,666,,Business,1250.3,Booked
+633,816,803,420,,Economy,322.93,Checked In
+634,701,985,419,621,Economy,262.65,Boarded
+635,885,118,968,,First,3780.93,Checked In
+636,136,247,519,,Economy,136.37,Booked
+637,922,754,328,,Business,758.96,Booked
+638,249,488,421,,Economy,128.33,Boarded
+639,616,275,126,,First,2642.06,Boarded
+640,954,899,816,,First,2236.17,Boarded
+641,86,822,442,,Economy,182.78,Booked
+642,819,122,422,,Business,741.94,Cancelled
+643,421,843,513,,Business,1296.21,Booked
+644,843,195,175,,First,4687.29,Booked
+645,812,924,103,,Economy,406.07,Booked
+646,963,347,534,,First,4517.2,Booked
+647,860,101,565,,Business,1001.93,Booked
+648,847,968,55,,Economy,171.24,Booked
+649,135,196,785,,First,2797.44,Boarded
+650,650,805,607,,Business,984.84,Booked
+651,100,804,278,,Economy,269.76,Checked In
+652,710,249,345,,Business,689.2,Booked
+653,409,508,837,713,Economy,236.67,Cancelled
+654,575,598,185,,Business,1005.11,Boarded
+655,892,480,525,,First,4266.25,Booked
+656,559,79,875,,First,2195.65,Checked In
+657,315,511,686,,Business,1234.53,Boarded
+658,999,91,13,,First,4363.19,Boarded
+659,486,239,2,,First,3441.63,Checked In
+660,530,169,965,,Economy,144.07,Booked
+661,714,306,859,,First,2104.45,Booked
+662,851,758,309,,First,2319.22,Boarded
+663,779,303,317,,Business,1045.44,Boarded
+664,151,816,336,,First,2944.45,Boarded
+665,594,955,857,,Economy,356.68,Booked
+666,605,463,430,,First,4020.35,Checked In
+667,253,284,369,,Economy,83.86,Booked
+668,634,373,92,,First,1803.27,Booked
+669,220,27,454,,Business,1351.87,Booked
+670,489,5,397,,First,4754.31,Cancelled
+671,702,741,412,,First,4068.01,Cancelled
+672,319,816,707,194,Business,1285.71,Booked
+673,954,614,535,,Business,582.8,Boarded
+674,787,536,941,,Economy,259.64,Cancelled
+675,588,403,619,,Economy,148.27,Boarded
+676,261,919,263,,Economy,187.36,Cancelled
+677,146,872,947,780,Economy,126.74,Checked In
+678,800,585,420,,Economy,313.55,Cancelled
+679,157,27,725,,First,1760.33,Booked
+680,974,677,992,,Business,1063.42,Boarded
+681,975,113,489,,First,3952.91,Checked In
+682,70,916,640,,Economy,84.39,Booked
+683,716,822,400,,Business,1488.09,Cancelled
+684,249,838,449,136,Economy,369.57,Checked In
+685,863,355,526,,Business,1212.98,Booked
+686,827,824,313,,Business,491.36,Boarded
+687,711,468,91,,Economy,384.36,Boarded
+688,398,985,355,,Business,1177.6,Booked
+689,697,439,324,,Business,859.24,Cancelled
+690,98,344,470,,Economy,438.74,Booked
+691,144,40,960,,Business,468.85,Booked
+692,710,346,642,,First,4188.1,Checked In
+693,784,377,584,,Business,965.06,Checked In
+694,824,971,906,455,Economy,113.53,Cancelled
+695,432,81,358,,Economy,337.45,Checked In
+696,193,356,893,,First,4293.34,Boarded
+697,549,49,861,180,Economy,322.2,Checked In
+698,770,11,839,206,Economy,122.81,Cancelled
+699,554,383,223,,Economy,382.21,Booked
+700,708,707,4,,Economy,145.41,Checked In
+701,10,579,15,,Business,457.73,Checked In
+702,502,955,833,,Business,811.93,Boarded
+703,854,754,942,,First,3485.37,Booked
+704,109,914,312,,Economy,228.73,Booked
+705,152,855,361,,Business,1025.68,Booked
+706,689,758,837,716,Economy,298.13,Checked In
+707,699,940,473,,First,3606.52,Booked
+708,278,401,198,,Business,1084.87,Booked
+709,797,610,782,,First,3307.18,Checked In
+710,787,535,431,348,Economy,133.2,Checked In
+711,419,601,932,,Business,533.5,Checked In
+712,399,977,456,,First,4883.57,Booked
+713,467,940,727,,Business,784.19,Cancelled
+714,734,946,698,,First,3973.12,Checked In
+715,706,394,638,,Economy,199.43,Boarded
+716,725,554,648,,First,3117.49,Booked
+717,688,652,272,,Economy,329.16,Boarded
+718,336,853,168,,Business,945.93,Boarded
+719,40,812,547,,Business,804.74,Boarded
+720,42,330,441,,Economy,163.55,Booked
+721,557,761,976,,First,4561.79,Cancelled
+722,453,529,984,,First,4004.7,Booked
+723,104,232,909,186,Economy,264.97,Booked
+724,449,944,286,,First,1782.42,Checked In
+725,23,104,247,,Business,1306.33,Boarded
+726,217,566,909,188,Economy,358.06,Booked
+727,959,919,319,798,Business,777.56,Cancelled
+728,704,746,201,,Business,1332.72,Checked In
+729,221,421,680,382,Economy,150.71,Booked
+730,248,314,327,,Business,775.38,Boarded
+731,823,925,255,,Economy,385.69,Booked
+732,887,938,609,,Business,760.71,Cancelled
+733,576,429,105,,Business,933.52,Checked In
+734,59,801,925,,Business,1044.59,Booked
+735,587,636,78,,First,4546.3,Boarded
+736,407,457,430,,Economy,241.49,Boarded
+737,121,95,771,,Economy,144.0,Boarded
+738,414,747,993,,Economy,184.22,Cancelled
+739,137,71,59,,First,3690.43,Booked
+740,146,540,27,,Business,926.31,Boarded
+741,383,24,25,,Economy,358.41,Boarded
+742,281,76,353,,Business,1344.02,Cancelled
+743,697,244,43,,Business,1390.78,Cancelled
+744,382,445,159,,Economy,68.48,Booked
+745,462,327,554,,First,2126.06,Checked In
+746,578,718,23,,Business,653.58,Booked
+747,121,763,233,,First,3173.38,Cancelled
+748,720,759,30,,First,3097.38,Booked
+749,688,854,222,,Economy,407.51,Boarded
+750,532,623,198,,Economy,148.7,Cancelled
+751,913,946,494,,Business,891.47,Cancelled
+752,627,947,278,,Business,857.37,Boarded
+753,210,851,191,,Business,572.59,Boarded
+754,518,290,160,,Business,1132.01,Booked
+755,909,499,452,991,Economy,230.51,Boarded
+756,543,347,693,,First,3036.46,Boarded
+757,404,842,307,,Business,542.15,Checked In
+758,284,141,460,,First,2347.27,Cancelled
+759,552,698,131,76,Economy,431.54,Booked
+760,409,355,148,,Economy,320.14,Cancelled
+761,999,907,213,,Business,563.26,Cancelled
+762,493,544,403,231,Economy,86.5,Boarded
+763,574,924,490,,First,3198.27,Boarded
+764,456,964,418,,Economy,287.83,Booked
+765,977,993,19,20,Economy,392.5,Checked In
+766,510,499,895,,First,4890.21,Cancelled
+767,684,553,518,,First,3844.57,Cancelled
+768,684,732,802,,Business,1216.95,Checked In
+769,975,10,339,,First,3826.38,Boarded
+770,482,548,992,,Business,873.61,Checked In
+771,843,72,415,84,Economy,188.88,Cancelled
+772,879,326,791,,Economy,194.99,Booked
+773,136,66,301,,Economy,323.9,Checked In
+774,730,534,129,900,Economy,303.18,Cancelled
+775,677,522,438,,Business,1416.76,Boarded
+776,448,859,420,,Economy,365.5,Booked
+777,507,15,820,,First,2724.78,Checked In
+778,629,425,475,,Economy,101.74,Boarded
+779,379,709,888,617,Business,531.74,Checked In
+780,270,396,980,,Business,801.59,Boarded
+781,736,498,575,,Business,1464.3,Checked In
+782,942,325,118,246,Economy,62.22,Checked In
+783,163,818,905,,Business,1202.43,Booked
+784,220,669,83,,First,1675.67,Checked In
+785,85,765,285,,First,3315.94,Booked
+786,738,784,999,,First,2389.05,Boarded
+787,836,875,341,704,Economy,156.17,Checked In
+788,154,574,185,,Economy,404.54,Booked
+789,193,131,679,,First,4999.41,Checked In
+790,426,400,595,,First,4973.5,Checked In
+791,367,602,526,,First,1534.76,Boarded
+792,400,615,529,,Business,666.63,Cancelled
+793,914,324,523,,Business,1244.8,Cancelled
+794,146,486,110,,First,2163.46,Booked
+795,641,148,266,315,Economy,195.6,Booked
+796,617,63,389,,Business,479.5,Boarded
+797,479,538,204,,Economy,378.39,Checked In
+798,945,865,436,,Business,875.76,Boarded
+799,515,918,545,64,Economy,129.2,Boarded
+800,275,778,308,,Business,1403.32,Checked In
+801,85,146,746,110,Economy,328.06,Booked
+802,594,970,177,,Business,771.0,Checked In
+803,702,581,848,,Economy,289.67,Booked
+804,702,82,147,,Economy,74.84,Booked
+805,350,672,99,,Economy,311.72,Boarded
+806,81,216,393,,First,2476.11,Boarded
+807,298,861,111,,First,2856.97,Boarded
+808,170,236,501,,Economy,60.48,Cancelled
+809,511,488,381,702,Economy,140.2,Checked In
+810,988,743,442,,Economy,245.57,Boarded
+811,779,894,476,,First,4114.36,Checked In
+812,165,437,479,,Business,1374.69,Boarded
+813,433,279,652,,Economy,90.27,Booked
+814,837,825,214,,Economy,145.13,Checked In
+815,558,955,680,,Business,704.84,Cancelled
+816,982,911,493,,Economy,81.5,Boarded
+817,562,352,551,,Economy,90.09,Cancelled
+818,907,762,285,,Business,1082.64,Cancelled
+819,559,153,142,,Business,666.33,Checked In
+820,697,682,901,,Economy,118.21,Boarded
+821,965,514,514,,First,3318.95,Checked In
+822,706,211,22,,Business,1020.63,Boarded
+823,114,131,946,232,Business,923.06,Booked
+824,469,511,852,,First,3962.12,Checked In
+825,862,863,308,,Business,1392.53,Boarded
+826,308,754,846,,Business,792.17,Cancelled
+827,72,106,237,684,Economy,372.16,Cancelled
+828,216,120,690,441,Economy,211.01,Boarded
+829,325,616,743,,Business,1380.34,Boarded
+830,990,438,542,,Business,839.74,Checked In
+831,726,102,827,,Economy,65.68,Boarded
+832,569,696,354,,First,3992.06,Checked In
+833,388,195,698,,Economy,331.07,Cancelled
+834,359,36,859,,Economy,251.44,Booked
+835,621,159,399,,Business,643.47,Booked
+836,178,241,563,,Business,1304.8,Booked
+837,501,256,446,,Business,1430.46,Boarded
+838,583,988,506,,Economy,207.72,Boarded
+839,593,728,636,,Economy,343.98,Booked
+840,577,842,415,82,Economy,146.05,Checked In
+841,354,424,147,,Economy,286.65,Booked
+842,177,75,912,,Economy,396.2,Cancelled
+843,6,703,46,,Economy,75.63,Checked In
+844,184,131,57,,Business,697.58,Checked In
+845,44,555,601,255,Economy,209.56,Booked
+846,542,585,542,,Economy,173.67,Cancelled
+847,73,870,458,,Economy,385.96,Booked
+848,886,95,293,,Business,1356.5,Checked In
+849,270,829,477,,Business,1094.54,Booked
+850,788,125,927,,Business,651.03,Booked
+851,810,402,429,,Business,511.2,Cancelled
+852,528,544,645,,First,3259.31,Cancelled
+853,735,440,798,,Economy,131.3,Checked In
+854,125,435,21,,Economy,383.37,Boarded
+855,55,158,706,,Business,1394.7,Boarded
+856,16,404,843,,Economy,109.39,Cancelled
+857,804,856,975,,Economy,423.94,Boarded
+858,159,865,930,,Business,1410.63,Cancelled
+859,624,834,264,,First,3009.44,Boarded
+860,391,550,426,,Business,940.15,Boarded
+861,422,629,878,664,Economy,256.96,Booked
+862,18,6,957,,Economy,386.39,Booked
+863,217,779,964,,Business,726.25,Cancelled
+864,523,278,501,,First,1841.67,Cancelled
+865,247,520,832,766,Economy,117.44,Checked In
+866,229,493,438,890,Economy,399.66,Checked In
+867,738,241,276,,Business,496.62,Boarded
+868,283,122,483,220,Business,1015.95,Cancelled
+869,835,448,81,,Economy,332.34,Booked
+870,37,20,909,185,Economy,266.57,Cancelled
+871,167,660,750,618,Economy,303.03,Checked In
+872,981,309,521,167,Economy,81.88,Cancelled
+873,994,603,658,969,Economy,93.62,Boarded
+874,994,717,356,,First,2728.44,Booked
+875,665,20,516,767,Economy,239.76,Booked
+876,970,707,218,,Economy,258.5,Checked In
+877,754,742,565,,Economy,425.71,Cancelled
+878,56,682,760,,First,2483.05,Boarded
+879,398,549,956,,First,2618.89,Booked
+880,684,203,647,,First,1806.74,Boarded
+881,733,928,693,,Business,1345.24,Boarded
+882,182,631,232,,Economy,430.93,Boarded
+883,331,465,48,,Economy,243.28,Cancelled
+884,256,235,862,533,Economy,78.42,Boarded
+885,198,412,46,,Business,759.24,Cancelled
+886,85,189,485,,First,2315.34,Booked
+887,547,160,900,743,Economy,247.39,Boarded
+888,429,870,794,,First,3592.53,Booked
+889,445,712,23,,Business,571.62,Cancelled
+890,632,841,398,,Economy,298.18,Boarded
+891,394,413,885,422,Economy,274.75,Checked In
+892,885,90,724,,Economy,444.93,Boarded
+893,515,442,312,214,Economy,68.72,Cancelled
+894,330,229,203,,First,2820.98,Booked
+895,981,269,593,,Economy,255.62,Cancelled
+896,593,97,529,,First,2915.01,Cancelled
+897,328,663,405,195,Economy,411.54,Boarded
+898,818,606,983,,Business,1433.11,Checked In
+899,177,30,427,,First,4618.02,Checked In
+900,347,793,352,,First,4208.29,Booked
+901,12,203,819,,Business,1011.44,Cancelled
+902,378,416,642,,Economy,159.04,Boarded
+903,632,100,737,,Economy,257.71,Boarded
+904,864,239,298,,First,2339.99,Booked
+905,916,623,854,,Economy,231.85,Checked In
+906,959,464,866,,Business,981.38,Checked In
+907,296,49,509,,First,4423.62,Checked In
+908,141,963,981,,First,1776.49,Booked
+909,396,679,486,,Economy,410.46,Cancelled
+910,463,682,97,,Economy,62.64,Boarded
+911,45,179,55,,Business,1365.31,Cancelled
+912,68,511,319,799,Economy,101.14,Booked
+913,515,279,655,,First,1520.18,Booked
+914,29,770,16,657,Economy,385.07,Checked In
+915,739,121,283,119,Economy,417.13,Booked
+916,96,745,841,,Economy,385.52,Checked In
+917,112,364,677,,First,3455.0,Booked
+918,595,154,478,,Business,1435.99,Boarded
+919,296,256,661,,Business,1448.1,Boarded
+920,387,78,531,,First,4586.55,Boarded
+921,437,575,588,,Economy,205.59,Checked In
+922,212,934,407,499,Economy,180.73,Booked
+923,953,645,986,,First,1864.94,Cancelled
+924,760,705,122,,First,2147.93,Booked
+925,887,524,808,,Economy,146.88,Checked In
+926,864,764,385,,Business,893.16,Cancelled
+927,548,651,823,,First,2825.1,Booked
+928,139,387,413,,Business,1167.68,Booked
+929,395,748,867,,First,4453.7,Checked In
+930,747,735,469,,Business,1157.76,Cancelled
+931,713,804,386,279,Economy,421.27,Cancelled
+932,381,861,612,,Business,914.43,Boarded
+933,615,931,932,,Business,964.97,Cancelled
+934,220,709,682,601,Economy,411.96,Boarded
+935,35,750,835,,Business,1000.7,Checked In
+936,672,749,255,,Business,696.75,Checked In
+937,580,245,286,,Business,1260.94,Booked
+938,949,681,737,,Economy,229.26,Cancelled
+939,836,346,460,,Economy,234.24,Boarded
+940,268,861,413,,Economy,350.11,Boarded
+941,160,84,997,,Business,1494.74,Checked In
+942,139,69,255,,Economy,61.18,Boarded
+943,527,818,450,,First,3461.6,Checked In
+944,819,644,521,,First,4940.98,Checked In
+945,603,673,837,714,Economy,215.36,Checked In
+946,57,525,536,,First,2253.51,Booked
+947,450,613,750,,First,4413.87,Booked
+948,428,131,193,,First,3817.82,Booked
+949,355,759,289,,Economy,174.5,Booked
+950,577,847,504,,Business,1387.56,Cancelled
+951,4,654,560,867,Business,962.39,Booked
+952,721,451,773,,Economy,174.33,Boarded
+953,849,600,387,976,Economy,205.73,Booked
+954,994,632,257,,Economy,222.84,Checked In
+955,647,713,799,,First,4203.32,Cancelled
+956,183,273,12,,First,3623.99,Checked In
+957,574,681,505,,Economy,92.51,Checked In
+958,147,868,104,,Business,1368.27,Cancelled
+959,435,460,64,,Economy,324.0,Booked
+960,524,477,122,,Business,566.76,Boarded
+961,805,342,733,,First,3502.94,Checked In
+962,734,912,47,,Business,1300.47,Booked
+963,154,177,81,,Economy,100.81,Cancelled
+964,34,321,36,,Economy,210.07,Booked
+965,486,244,303,,Economy,425.93,Cancelled
+966,921,724,263,,Economy,168.74,Boarded
+967,373,308,336,,Economy,374.56,Checked In
+968,982,254,881,,Economy,424.11,Boarded
+969,373,602,77,,Business,1283.5,Boarded
+970,764,635,90,,Business,1138.67,Cancelled
+971,199,25,707,193,Economy,259.89,Boarded
+972,522,410,341,702,Economy,162.14,Boarded
+973,184,921,823,,Business,1339.57,Booked
+974,66,581,90,,Business,834.19,Cancelled
+975,266,473,21,,Business,1133.85,Cancelled
+976,865,828,641,149,Economy,380.68,Checked In
+977,272,67,317,,Business,607.19,Boarded
+978,561,959,444,,Business,1259.42,Booked
+979,702,841,324,,Economy,194.98,Booked
+980,585,18,685,,Business,656.15,Boarded
+981,753,776,78,,First,2470.51,Cancelled
+982,961,214,613,,Economy,294.41,Boarded
+983,653,750,414,86,Economy,116.46,Cancelled
+984,88,51,36,933,Economy,397.59,Cancelled
+985,785,977,926,,Business,1478.21,Checked In
+986,990,529,272,,Business,1196.89,Booked
+987,590,821,163,,First,1560.17,Booked
+988,953,621,98,,Business,1351.77,Checked In
+989,581,693,753,,Economy,316.94,Cancelled
+990,131,326,597,316,Economy,227.11,Cancelled
+991,765,805,123,,Economy,443.12,Checked In
+992,726,301,588,,First,1878.5,Checked In
+993,3,906,28,437,Economy,355.68,Booked
+994,525,217,934,,First,3679.09,Boarded
+995,373,119,425,880,Economy,235.56,Booked
+996,699,733,587,,Business,458.26,Booked
+997,98,484,145,,First,4535.0,Checked In
+998,234,969,721,,Business,1043.25,Checked In
+999,750,215,371,,Economy,92.1,Boarded
+1000,254,361,443,,Economy,337.62,Cancelled

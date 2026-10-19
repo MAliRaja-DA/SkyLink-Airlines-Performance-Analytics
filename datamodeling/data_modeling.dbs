@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="SkyLink Airlines" database="LogicalDesign" id="0d1680a4-c08b-49ca-90cb-e0bc96dae66c" >
+	<schema name="SkyLink Airlines" >
+		<table name="AIRCRAFT" prior="Entity" spec="" >
+			<column name="aircraft_id" type="INT" mandatory="y" />
+			<column name="registration_number" type="VARCHAR" length="50" mandatory="y" />
+			<column name="model" type="VARCHAR" length="100" mandatory="y" />
+			<column name="manufacturer" type="VARCHAR" length="100" mandatory="y" />
+			<column name="total_seats" type="INT" mandatory="y" />
+			<column name="status" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[active, maintenance, retired]]></enumeration>
+			</column>
+			<index name="pk_AIRCRAFT" unique="PRIMARY_KEY" >
+				<column name="aircraft_id" />
+			</index>
+			<index name="unq_AIRCRAFT" unique="UNIQUE_KEY" >
+				<column name="registration_number" />
+			</index>
+			<fk name="fk_AIRCRAFT_FLIGHT" to_schema="SkyLink Airlines" to_table="FLIGHT" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="aircraft_id" pk="aircraft_id" />
+			</fk>
+			<fk name="fk_AIRCRAFT_AIRCRAFT_SEAT" to_schema="SkyLink Airlines" to_table="AIRCRAFT_SEAT" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="aircraft_id" pk="aircraft_id" />
+			</fk>
+		</table>
+		<table name="AIRCRAFT_SEAT" prior="Entity" >
+			<column name="seat_id" type="INT" mandatory="y" />
+			<column name="aircraft_id" type="INT" mandatory="y" />
+			<column name="seat_number" type="VARCHAR" length="10" mandatory="y" />
+			<column name="seat_class" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[Economy,Business,First]]></enumeration>
+			</column>
+			<column name="is_usable" type="BOOLEAN" mandatory="y" />
+			<index name="pk_AIRCRAFT_SEAT" unique="PRIMARY_KEY" >
+				<column name="seat_id" />
+			</index>
+			<fk name="fk_AIRCRAFT_SEAT_TICKET" to_schema="SkyLink Airlines" to_table="TICKET" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="seat_id" pk="seat_id" />
+			</fk>
+		</table>
+		<table name="AIRPORT" prior="Entity" >
+			<column name="airport_id" type="INT" mandatory="y" />
+			<column name="airport_code" type="VARCHAR" length="10" mandatory="y" />
+			<column name="name" type="VARCHAR" length="100" mandatory="y" />
+			<column name="city" type="VARCHAR" length="100" mandatory="y" />
+			<column name="country" type="VARCHAR" length="100" mandatory="y" />
+			<column name="timezone" type="VARCHAR" length="100" mandatory="y" />
+			<index name="pk_Entity" unique="PRIMARY_KEY" >
+				<column name="airport_id" />
+			</index>
+			<index name="unq_AIRPORT" unique="UNIQUE_KEY" >
+				<column name="airport_code" />
+			</index>
+			<fk name="fk_AIRPORT_ROUTE" to_schema="SkyLink Airlines" to_table="ROUTE" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="airport_id" pk="origin_airport_id" />
+			</fk>
+			<fk name="fk_AIRPORT_ROUTE_0" to_schema="SkyLink Airlines" to_table="ROUTE" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="airport_id" pk="destination_airport_id" />
+			</fk>
+		</table>
+		<table name="BAGGAGE" prior="Entity" >
+			<column name="bag_id" type="INT" mandatory="y" />
+			<column name="ticket_id" type="INT" mandatory="y" />
+			<column name="bag_tag_number" type="VARCHAR" length="30" mandatory="y" />
+			<column name="weight_kg" type="DECIMAL" length="5" decimal="2" mandatory="y" />
+			<column name="status" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[Checked,Loaded,Claimed,Lost]]></enumeration>
+			</column>
+			<index name="pk_BAGGAGE" unique="PRIMARY_KEY" >
+				<column name="bag_id" />
+			</index>
+		</table>
+		<table name="BOOKING" prior="Entity" >
+			<column name="booking_id" prior="BOOKING" type="INT" mandatory="y" />
+			<column name="booking_reference" type="VARCHAR" length="50" mandatory="y" />
+			<column name="contact_passenger_id" type="INT" mandatory="y" />
+			<column name="booking_datetime" type="DATETIME" mandatory="y" />
+			<column name="status" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[Confirmed,Cancelled,Completed]]></enumeration>
+			</column>
+			<index name="pk_BOOKING" unique="PRIMARY_KEY" >
+				<column name="booking_id" />
+			</index>
+			<index name="unq_BOOKING" unique="UNIQUE_KEY" >
+				<column name="booking_reference" />
+			</index>
+			<fk name="fk_BOOKING_TICKET" to_schema="SkyLink Airlines" to_table="TICKET" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="booking_id" pk="booking_id" />
+			</fk>
+			<fk name="fk_BOOKING_PAYMENT" to_schema="SkyLink Airlines" to_table="PAYMENT" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="booking_id" pk="booking_id" />
+			</fk>
+		</table>
+		<table name="CREW_MEMBER" prior="Entity" >
+			<column name="crew_id" type="INT" mandatory="y" />
+			<column name="employee_number" type="VARCHAR" length="30" mandatory="y" />
+			<column name="full_name" type="VARCHAR" length="100" mandatory="y" />
+			<column name="role_type" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[Pilot,First Officer,Attendant]]></enumeration>
+			</column>
+			<column name="license_number" type="VARCHAR" length="50" />
+			<index name="pk_CREW_MEMBER" unique="PRIMARY_KEY" >
+				<column name="crew_id" />
+			</index>
+			<fk name="fk_CREW_MEMBER_FLIGHT_CREW_ASSIGNMENT" to_schema="SkyLink Airlines" to_table="FLIGHT_CREW_ASSIGNMENT" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="crew_id" pk="crew_member_id" />
+			</fk>
+		</table>
+		<table name="FLIGHT" prior="Entity" >
+			<column name="flight_id" type="INT" mandatory="y" />
+			<column name="flight_number" type="VARCHAR" length="20" mandatory="y" />
+			<column name="route_id" type="INT" mandatory="y" />
+			<column name="aircraft_id" type="INT" />
+			<column name="scheduled_departure" type="DATETIME" mandatory="y" />
+			<column name="scheduled_arrival" type="DATETIME" mandatory="y" />
+			<column name="status" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[Scheduled,Delayed,Cancelled,Departed,Landed]]></enumeration>
+			</column>
+			<index name="pk_FLIGHT" unique="PRIMARY_KEY" >
+				<column name="flight_id" />
+			</index>
+			<fk name="fk_FLIGHT_TICKET" to_schema="SkyLink Airlines" to_table="TICKET" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="flight_id" pk="flight_id" />
+			</fk>
+			<fk name="fk_FLIGHT_FLIGHT_CREW_ASSIGNMENT" to_schema="SkyLink Airlines" to_table="FLIGHT_CREW_ASSIGNMENT" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="flight_id" pk="flight_id" />
+			</fk>
+		</table>
+		<table name="FLIGHT_CREW_ASSIGNMENT" prior="Entity" >
+			<column name="flight_crew_assignment_id" type="INT" mandatory="y" />
+			<column name="flight_id" type="INT" mandatory="y" />
+			<column name="crew_member_id" type="INT" mandatory="y" />
+			<column name="role_on_flight" type="ENUM" mandatory="y" >
+				<enumeration><![CDATA[captain, first_officer, check_captain, purser, attendan]]></enumeration>
+			</column>
+			<index name="pk_FLIGHT_CREW_ASSIGNMENT" unique="PRIMARY_KEY" >
+				<column name="flight_crew_assignment_id" />
+			</index>
+		</table>
+		<table name="PASSENGER" prior="Entity" >
+			<column name="passenger_id" type="INT" mandatory="y" />
+			<column name="full_name" type="VARCHAR" length="100" mandatory="y" />
+			<column name="passport_number" type="VARCHAR" length="50" mandatory="y" />
+			<column name="email" type="VARCHAR" length="100" mandatory="y" />
+			<column name="phone" type="VARCHAR" length="20" mandatory="y" />
+			<column name="frequent_flyer_no" type="VARCHAR" length="50" />
+			<index name="pk_PASSENGER" unique="PRIMARY_KEY" >
+				<column name="passenger_id" />
+			</index>
+			<index name="unq_PASSENGER" unique="UNIQUE_KEY" >
+				<column name="frequent_flyer_no" />
+			</index>
+			<fk name="fk_PASSENGER_TICKET" to_schema="SkyLink Airlines" to_table="TICKET" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="passenger_id" pk="passenger_id" />
+			</fk>
+			<fk name="fk_PASSENGER_BOOKING" to_schema="SkyLink Airlines" to_table="BOOKING" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="passenger_id" pk="contact_passenger_id" />
+			</fk>
+		</table>
+		<table name="PAYMENT" prior="Entity" >
+			<column name="payment_id" type="INT" mandatory="y" />
+			<column name="booking_id" type="INT" mandatory="y" />
+			<column name="amount" type="NUMERIC" length="10" decimal="2" mandatory="y" />
+			<column name="payment_method" type="VARCHAR" length="30" />
+			<column name="attempted_at" type="DATETIME" mandatory="y" />
+			<column name="result" type="ENUM" >
+				<enumeration><![CDATA[succeeded, failed]]></enumeration>
+			</column>
+			<index name="pk_PAYMENT" unique="PRIMARY_KEY" >
+				<column name="payment_id" />
+			</index>
+		</table>
+		<table name="ROUTE" prior="Entity" >
+			<column name="route_id" type="INT" mandatory="y" />
+			<column name="origin_airport_id" type="INT" mandatory="y" />
+			<column name="destination_airport_id" type="INT" mandatory="y" />
+			<column name="distance_km" type="DECIMAL" length="8" decimal="2" mandatory="y" />
+			<column name="duration_minutes" type="INT" mandatory="y" />
+			<index name="pk_ROUTE" unique="PRIMARY_KEY" >
+				<column name="route_id" />
+			</index>
+			<fk name="fk_ROUTE_FLIGHT" to_schema="SkyLink Airlines" to_table="FLIGHT" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="route_id" pk="route_id" />
+			</fk>
+		</table>
+		<table name="TICKET" prior="Entity" >
+			<column name="ticket_id" type="INT" mandatory="y" />
+			<column name="booking_id" type="INT" mandatory="y" />
+			<column name="passenger_id" type="INT" mandatory="y" />
+			<column name="flight_id" type="INT" mandatory="y" />
+			<column name="seat_id" type="INT" />
+			<column name="fare_class" type="ENUM" >
+				<enumeration><![CDATA[Economy,Business,First]]></enumeration>
+			</column>
+			<column name="price" type="DECIMAL" length="10" decimal="2" mandatory="y" />
+			<column name="status" type="ENUM" >
+				<enumeration><![CDATA[Booked,Checked In,Boarded,Cancelled]]></enumeration>
+			</column>
+			<index name="pk_TICKET" unique="PRIMARY_KEY" >
+				<column name="ticket_id" />
+			</index>
+			<fk name="fk_TICKET_BAGGAGE" to_schema="SkyLink Airlines" to_table="BAGGAGE" type="NonIdentifying" mandatory="y" cardinality="ZeroMore" range_from="0" range_to="0" >
+				<fk_column name="ticket_id" pk="ticket_id" />
+			</fk>
+		</table>
+	</schema>
+	<diagram_group name="Default" id="8cfb29e1-cc07-42f9-9bfb-85821dbb6391" >
+		<diagram name="Default Diagram" id="14984f27-a5cc-4fa7-a218-653b30272fde" show_relation="columns" >
+			<entity schema="SkyLink Airlines" name="AIRCRAFT" color="C1D8EE" x="1197" y="437" />
+			<entity schema="SkyLink Airlines" name="AIRCRAFT_SEAT" color="C1D8EE" x="1292" y="760" />
+			<entity schema="SkyLink Airlines" name="AIRPORT" color="C1D8EE" x="57" y="76" />
+			<entity schema="SkyLink Airlines" name="BAGGAGE" color="C1D8EE" x="703" y="855" />
+			<entity schema="SkyLink Airlines" name="BOOKING" color="C1D8EE" x="133" y="684" />
+			<entity schema="SkyLink Airlines" name="CREW_MEMBER" color="C1D8EE" x="1577" y="456" />
+			<entity schema="SkyLink Airlines" name="FLIGHT" color="C1D8EE" x="1102" y="76" />
+			<entity schema="SkyLink Airlines" name="FLIGHT_CREW_ASSIGNMENT" color="C1D8EE" x="1596" y="57" />
+			<entity schema="SkyLink Airlines" name="PASSENGER" color="C1D8EE" x="76" y="342" />
+			<entity schema="SkyLink Airlines" name="PAYMENT" color="C1D8EE" x="171" y="931" />
+			<entity schema="SkyLink Airlines" name="ROUTE" color="C1D8EE" x="608" y="95" />
+			<entity schema="SkyLink Airlines" name="TICKET" color="C1D8EE" x="665" y="399" />
+		</diagram>
+	</diagram_group>
+</project>
