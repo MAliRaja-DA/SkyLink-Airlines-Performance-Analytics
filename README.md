@@ -115,6 +115,6 @@ SQL · PostgreSQL · DbSchema · Database Design · Data Modelling · Power Quer
 ## 👤 Author
 
 **Muhammad Ali Raja**
-[LinkedIn](www.linkedin.com/in/m-ali-raja) · mohammadali_raja20@outlook.com
+[LinkedIn](www.linkedin.com/in/m-ali-raja-) · mohammadali_raja20@outlook.com
 
 > All data is synthetic and created for portfolio purposes. SkyLink Airlines is a fictional company.
