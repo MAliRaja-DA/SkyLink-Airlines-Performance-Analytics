@@ -81,11 +81,10 @@ The report has 6 pages:
 ## 💡 Key Insights
 
 - **Revenue:** Total revenue of **$1.28788604M** from **1K** tickets.
-- **Top fare class:** ______ generates **___%** of revenue.
-- **Best route:** ______ is the highest-earning route.
-- **Punctuality:** **___%** of flights were delayed and **___%** cancelled.
-- **Baggage:** **___%** of bags were lost.
-- **Payments:** **___%** payment success rate.
+- **Top fare class:** **First Class** generates **$860,215** of revenue.
+- **Best route:** **route_id 295** is the highest-earning route.
+- **Punctuality:** **14%** of flights were delayed and **4.7%** cancelled.
+- **Baggage:** **3.3%** of bags were lost.
 
 ## 📁 Repository Structure
 
